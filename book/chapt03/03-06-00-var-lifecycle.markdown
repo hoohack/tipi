@@ -6,7 +6,7 @@
 ##变量的生命周期
 
 在ZE进行词法和语法的分析之后，生成具体的opcode，这些opcode最终被execute函数(Zend/zend_vm_execute.h:46)解释执行。
-在excute函数中，有以下代码：
+在execute函数中，有以下代码：
 
     [c]
     while (1) { 
